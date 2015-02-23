@@ -1,0 +1,37 @@
+/* This UserStyle is use on jira.hinttech.com to remove some of the colors used. */
+@import url('http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800');
+
+* {font-family: 'Open Sans'!important;}
+
+.aui-theme-default, .saved-search-selector, .navigator-search {
+  background:#fafafa
+  }
+
+.aui-header {
+	border-bottom:1px solid #ededed;
+padding:20px 0;    
+  }
+  
+ .aui-header .aui-dropdown2-trigger {
+       color:#909090;
+          
+      }
+.aui-header .aui-icon-dropdown, .aui-header .aui-dropdown2-trigger::after {
+  border-top-color:#ccc;            
+            }
+
+.aui-header .aui-quicksearch input {
+ -webkit-appearance:none;
+    margin-top:0;
+    height:40px;
+      background:#fafafa;
+      border-radius:0;
+      box-shadow:none;
+      border:1px solid #ededed
+    }
+    
+    .aui-header .aui-button.aui-button-primary.aui-style, #create_link {
+		background:#fd4d43!important;
+  text-shadow:none;
+  height:40px;
+	}
